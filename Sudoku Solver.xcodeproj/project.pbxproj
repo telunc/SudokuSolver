@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BADC52D95AD1E2D956C95C0 /* libPods-Sudoku Solver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B94687D7FFE9DFD9E433649F /* libPods-Sudoku Solver.a */; };
+		A1E89B0020853F6500067022 /* TLCSolverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E89AFE20853F6500067022 /* TLCSolverViewController.m */; };
+		A1E89B0120853F6500067022 /* TLCSolverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E89AFF20853F6500067022 /* TLCSolverViewController.xib */; };
 		A1F9BFD41CBB9D15007983DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9BFD31CBB9D15007983DD /* main.m */; };
 		A1F9BFD71CBB9D15007983DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9BFD61CBB9D15007983DD /* AppDelegate.m */; };
 		A1F9BFDF1CBB9D15007983DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F9BFDE1CBB9D15007983DD /* Assets.xcassets */; };
-		A1F9BFE21CBB9D15007983DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F9BFE01CBB9D15007983DD /* LaunchScreen.storyboard */; };
 		A1F9BFED1CBB9D15007983DD /* Sudoku_SolverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9BFEC1CBB9D15007983DD /* Sudoku_SolverTests.m */; };
-		A1F9BFF81CBB9D15007983DD /* Sudoku_SolverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9BFF71CBB9D15007983DD /* Sudoku_SolverUITests.m */; };
-		A1F9C0121CBBA30A007983DD /* TLCSolverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9C0101CBBA30A007983DD /* TLCSolverViewController.m */; };
-		A1F9C0131CBBA30A007983DD /* TLCSolverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F9C0111CBBA30A007983DD /* TLCSolverViewController.xib */; };
-		A1F9C0181CBBC321007983DD /* TLCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9C0161CBBC321007983DD /* TLCCameraViewController.m */; };
-		A1F9C0191CBBC321007983DD /* TLCCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F9C0171CBBC321007983DD /* TLCCameraViewController.xib */; };
-		A1F9C0211CBBCBC0007983DD /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A1F9C0201CBBCBC0007983DD /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,29 +33,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0025BAB7DDAF8977EB8C9D90 /* Pods-Sudoku Solver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku Solver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sudoku Solver/Pods-Sudoku Solver.release.xcconfig"; sourceTree = "<group>"; };
-		9C6B04E3CEBA7727E3C67B1C /* Pods-Sudoku Solver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku Solver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sudoku Solver/Pods-Sudoku Solver.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E89AFD20853F6500067022 /* TLCSolverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCSolverViewController.h; sourceTree = "<group>"; };
+		A1E89AFE20853F6500067022 /* TLCSolverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCSolverViewController.m; sourceTree = "<group>"; };
+		A1E89AFF20853F6500067022 /* TLCSolverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLCSolverViewController.xib; sourceTree = "<group>"; };
 		A1F9BFCF1CBB9D15007983DD /* Sudoku Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sudoku Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9BFD31CBB9D15007983DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1F9BFD51CBB9D15007983DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1F9BFD61CBB9D15007983DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A1F9BFDE1CBB9D15007983DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1F9BFE11CBB9D15007983DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1F9BFE31CBB9D15007983DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F9BFE81CBB9D15007983DD /* Sudoku SolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sudoku SolverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9BFEC1CBB9D15007983DD /* Sudoku_SolverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sudoku_SolverTests.m; sourceTree = "<group>"; };
 		A1F9BFEE1CBB9D15007983DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F9BFF31CBB9D15007983DD /* Sudoku SolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sudoku SolverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F9BFF71CBB9D15007983DD /* Sudoku_SolverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sudoku_SolverUITests.m; sourceTree = "<group>"; };
-		A1F9BFF91CBB9D15007983DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1F9C00F1CBBA30A007983DD /* TLCSolverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLCSolverViewController.h; path = Controller/Solver/TLCSolverViewController.h; sourceTree = "<group>"; };
-		A1F9C0101CBBA30A007983DD /* TLCSolverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLCSolverViewController.m; path = Controller/Solver/TLCSolverViewController.m; sourceTree = "<group>"; };
-		A1F9C0111CBBA30A007983DD /* TLCSolverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLCSolverViewController.xib; path = Controller/Solver/TLCSolverViewController.xib; sourceTree = "<group>"; };
-		A1F9C0151CBBC321007983DD /* TLCCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLCCameraViewController.h; path = Controller/Camera/TLCCameraViewController.h; sourceTree = "<group>"; };
-		A1F9C0161CBBC321007983DD /* TLCCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLCCameraViewController.m; path = Controller/Camera/TLCCameraViewController.m; sourceTree = "<group>"; };
-		A1F9C0171CBBC321007983DD /* TLCCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLCCameraViewController.xib; path = Controller/Camera/TLCCameraViewController.xib; sourceTree = "<group>"; };
-		A1F9C0201CBBCBC0007983DD /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
-		B94687D7FFE9DFD9E433649F /* libPods-Sudoku Solver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sudoku Solver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BADC52D95AD1E2D956C95C0 /* libPods-Sudoku Solver.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +78,7 @@
 			children = (
 				A1F9BFD11CBB9D15007983DD /* Sudoku Solver */,
 				A1F9BFEB1CBB9D15007983DD /* Sudoku SolverTests */,
-				A1F9BFF61CBB9D15007983DD /* Sudoku SolverUITests */,
 				A1F9BFD01CBB9D15007983DD /* Products */,
-				E7D14B55745A981F30954AFE /* Pods */,
-				BC673594C5F0224692EA4F33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,13 +95,13 @@
 		A1F9BFD11CBB9D15007983DD /* Sudoku Solver */ = {
 			isa = PBXGroup;
 			children = (
-				A1F9C0061CBB9F97007983DD /* Model */,
-				A1F9C0071CBB9F9F007983DD /* View */,
-				A1F9C0081CBB9FA4007983DD /* Controller */,
+				A1E89AFD20853F6500067022 /* TLCSolverViewController.h */,
+				A1E89AFE20853F6500067022 /* TLCSolverViewController.m */,
+				A1E89AFF20853F6500067022 /* TLCSolverViewController.xib */,
 				A1F9BFD51CBB9D15007983DD /* AppDelegate.h */,
 				A1F9BFD61CBB9D15007983DD /* AppDelegate.m */,
 				A1F9BFDE1CBB9D15007983DD /* Assets.xcassets */,
-				A1F9C0051CBB9E01007983DD /* Base */,
+				A1F9BFE31CBB9D15007983DD /* Info.plist */,
 				A1F9BFD21CBB9D15007983DD /* Supporting Files */,
 			);
 			path = "Sudoku Solver";
@@ -144,85 +124,6 @@
 			path = "Sudoku SolverTests";
 			sourceTree = "<group>";
 		};
-		A1F9BFF61CBB9D15007983DD /* Sudoku SolverUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A1F9BFF71CBB9D15007983DD /* Sudoku_SolverUITests.m */,
-				A1F9BFF91CBB9D15007983DD /* Info.plist */,
-			);
-			path = "Sudoku SolverUITests";
-			sourceTree = "<group>";
-		};
-		A1F9C0051CBB9E01007983DD /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				A1F9BFE01CBB9D15007983DD /* LaunchScreen.storyboard */,
-				A1F9BFE31CBB9D15007983DD /* Info.plist */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		A1F9C0061CBB9F97007983DD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A1F9C0201CBBCBC0007983DD /* tessdata */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		A1F9C0071CBB9F9F007983DD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		A1F9C0081CBB9FA4007983DD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A1F9C0141CBBC305007983DD /* Camera */,
-				A1F9C00E1CBBA2DF007983DD /* Solver */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		A1F9C00E1CBBA2DF007983DD /* Solver */ = {
-			isa = PBXGroup;
-			children = (
-				A1F9C00F1CBBA30A007983DD /* TLCSolverViewController.h */,
-				A1F9C0101CBBA30A007983DD /* TLCSolverViewController.m */,
-				A1F9C0111CBBA30A007983DD /* TLCSolverViewController.xib */,
-			);
-			name = Solver;
-			sourceTree = "<group>";
-		};
-		A1F9C0141CBBC305007983DD /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				A1F9C0151CBBC321007983DD /* TLCCameraViewController.h */,
-				A1F9C0161CBBC321007983DD /* TLCCameraViewController.m */,
-				A1F9C0171CBBC321007983DD /* TLCCameraViewController.xib */,
-			);
-			name = Camera;
-			sourceTree = "<group>";
-		};
-		BC673594C5F0224692EA4F33 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B94687D7FFE9DFD9E433649F /* libPods-Sudoku Solver.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E7D14B55745A981F30954AFE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9C6B04E3CEBA7727E3C67B1C /* Pods-Sudoku Solver.debug.xcconfig */,
-				0025BAB7DDAF8977EB8C9D90 /* Pods-Sudoku Solver.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,12 +131,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F9BFFC1CBB9D15007983DD /* Build configuration list for PBXNativeTarget "Sudoku Solver" */;
 			buildPhases = (
-				D8A25FA33FBFF654B101E4CB /* Check Pods Manifest.lock */,
 				A1F9BFCB1CBB9D15007983DD /* Sources */,
 				A1F9BFCC1CBB9D15007983DD /* Frameworks */,
 				A1F9BFCD1CBB9D15007983DD /* Resources */,
-				EA6184769C85C2E35EF1BFC5 /* Embed Pods Frameworks */,
-				A2C77B0BC18821BE77521F98 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,12 +187,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TLC;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Te Lun Chen";
 				TargetAttributes = {
 					A1F9BFCE1CBB9D15007983DD = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 3S89T974M2;
+						ProvisioningStyle = Automatic;
 					};
 					A1F9BFE71CBB9D15007983DD = {
 						CreatedOnToolsVersion = 7.3;
@@ -333,11 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F9C0131CBBA30A007983DD /* TLCSolverViewController.xib in Resources */,
-				A1F9BFE21CBB9D15007983DD /* LaunchScreen.storyboard in Resources */,
-				A1F9C0211CBBCBC0007983DD /* tessdata in Resources */,
+				A1E89B0120853F6500067022 /* TLCSolverViewController.xib in Resources */,
 				A1F9BFDF1CBB9D15007983DD /* Assets.xcassets in Resources */,
-				A1F9C0191CBBC321007983DD /* TLCCameraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,63 +253,14 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A2C77B0BC18821BE77521F98 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sudoku Solver/Pods-Sudoku Solver-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D8A25FA33FBFF654B101E4CB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EA6184769C85C2E35EF1BFC5 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sudoku Solver/Pods-Sudoku Solver-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A1F9BFCB1CBB9D15007983DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1F9BFD71CBB9D15007983DD /* AppDelegate.m in Sources */,
-				A1F9C0121CBBA30A007983DD /* TLCSolverViewController.m in Sources */,
+				A1E89B0020853F6500067022 /* TLCSolverViewController.m in Sources */,
 				A1F9BFD41CBB9D15007983DD /* main.m in Sources */,
-				A1F9C0181CBBC321007983DD /* TLCCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F9BFF81CBB9D15007983DD /* Sudoku_SolverUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,17 +294,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A1F9BFE01CBB9D15007983DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1F9BFE11CBB9D15007983DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		A1F9BFFA1CBB9D15007983DD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -474,8 +309,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -518,8 +355,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -544,33 +383,37 @@
 		};
 		A1F9BFFD1CBB9D15007983DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C6B04E3CEBA7727E3C67B1C /* Pods-Sudoku Solver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3S89T974M2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sudoku Solver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TLC.Sudoku-Solver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		A1F9BFFE1CBB9D15007983DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0025BAB7DDAF8977EB8C9D90 /* Pods-Sudoku Solver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3S89T974M2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sudoku Solver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TLC.Sudoku-Solver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

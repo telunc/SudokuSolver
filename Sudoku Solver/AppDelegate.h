@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TLCCameraViewController.h"
 #import "TLCSolverViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
