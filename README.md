@@ -1,8 +1,5 @@
-<h1 align="center">
-  <img src="/sudoku.gif" width="256px" alt="Sudoku"></a>
-  <br />
-</h1>
-<h4 align="center">Created by <a href="http://telunchen.com/">Te Lun Chen</a></h4>
+# Sudoku Solver
+<img src="/sudoku.gif" width="256px" alt="Sudoku"></a>
 
 ## About
 1. Written in Objective-C
