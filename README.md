@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/blob/master/sudoku.gif" width="256px" alt="Sudoku"></a>
+  <img src="/sudoku.gif" width="256px" alt="Sudoku"></a>
   <br />
   Sudoku Solver
   <br />
